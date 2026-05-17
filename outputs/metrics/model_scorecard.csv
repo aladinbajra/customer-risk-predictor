@@ -1,0 +1,4 @@
+model,validation_accuracy,validation_precision,validation_recall,validation_f1,validation_roc_auc,validation_threshold,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_threshold
+logistic_regression,0.955667,0.920721,0.851667,0.884848,0.988034,0.85,0.956667,0.924188,0.853333,0.887348,0.991934,0.85
+hist_gradient_boosting,0.953,0.893654,0.868333,0.880811,0.987047,0.49,0.959,0.917688,0.873333,0.894962,0.991609,0.49
+random_forest,0.943,0.885099,0.821667,0.852204,0.981895,0.58,0.949,0.895575,0.843333,0.86867,0.987096,0.58

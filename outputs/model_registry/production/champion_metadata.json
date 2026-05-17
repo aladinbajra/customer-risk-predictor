@@ -1,0 +1,27 @@
+{
+  "artifact_path": "outputs/model_registry/production/customer_risk_pipeline.joblib",
+  "local_registry_note": "This folder simulates Databricks/Unity Catalog model promotion for local use.",
+  "model_name": "logistic_regression",
+  "model_type": "LogisticRegression",
+  "promotion_date_utc": "2026-05-17T20:17:42.535508+00:00",
+  "selection_metric": "validation_f1",
+  "selection_rule": "Highest validation F1 after validation-tuned threshold, then ROC-AUC and recall.",
+  "source_model_path": "outputs/models/customer_risk_pipeline.joblib",
+  "staging_artifact_path": "outputs/model_registry/staging/customer_risk_pipeline.joblib",
+  "test_metrics": {
+    "accuracy": 0.956667,
+    "f1": 0.887348,
+    "precision": 0.924188,
+    "recall": 0.853333,
+    "roc_auc": 0.991934,
+    "threshold": 0.85
+  },
+  "validation_metrics": {
+    "accuracy": 0.955667,
+    "f1": 0.884848,
+    "precision": 0.920721,
+    "recall": 0.851667,
+    "roc_auc": 0.988034,
+    "threshold": 0.85
+  }
+}

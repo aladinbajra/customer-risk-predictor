@@ -1,0 +1,17 @@
+Customer Risk Predictor Monitoring Summary
+==========================================
+Reference rows: 9000
+Current rows: 750
+Maximum PSI-style drift score: 0.0652
+Overall data drift status: low
+
+Severity guide: low < 0.10 PSI, moderate 0.10-0.24 PSI, high >= 0.25 PSI.
+High-drift features: none
+Moderate-drift features: none
+
+Business definitions:
+- Data drift: customer/account feature distributions changed compared with training data.
+- Model quality drift: precision, recall, F1, or ROC-AUC changes once actual outcomes arrive.
+- Concept drift: the relationship between customer behavior and churn/escalation risk changes.
+
+This report is an early-warning screen. It does not replace labeled performance monitoring.

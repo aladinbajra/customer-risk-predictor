@@ -1,0 +1,15 @@
+feature,correlation
+satisfaction_score,-0.6080729273239345
+failed_interactions,0.5417004922718812
+support_ticket_count,0.4833207579760399
+product_usage_score,-0.43770546240137614
+avg_resolution_time_hours,0.41013901787369017
+severity_critical_count,0.4100818655064393
+previous_escalations,0.39671178640725274
+severity_high_count,0.3877972088217098
+severity_low_count,0.2832997081738195
+avg_response_time_hours,0.25933579908022597
+severity_medium_count,0.24157737046205727
+monthly_spend,0.11936970485520793
+renewal_due_days,-0.05779573660944426
+account_age_months,0.0023526944810586185
